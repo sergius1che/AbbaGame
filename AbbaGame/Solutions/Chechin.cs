@@ -7,7 +7,7 @@ namespace AbbaGame.Solutions
         private const string POSSIBLE = "Possible";
         private const string IMPOSSIBLE = "Impossible";
 
-        public override string СanObtain(string initial, string target)
+        public override string CanObtain(string initial, string target)
         {
             var i = new Span<char>(initial.ToCharArray());
             var t = new Span<char>(target.ToCharArray());

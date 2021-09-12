@@ -44,7 +44,7 @@ namespace AbbaGame
 
             foreach (var @case in Cases)
             {
-                var result = instance.СanObtain(@case.Initial, @case.Target);
+                var result = instance.CanObtain(@case.Initial, @case.Target);
 
                 var currentPassed = result == @case.Result;
 

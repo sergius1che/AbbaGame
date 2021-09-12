@@ -11,9 +11,9 @@ namespace AbbaGame
         [Benchmark]
         public void Run()
         {
-            _ = СanObtain(INPUT, TARGET);
+            _ = CanObtain(INPUT, TARGET);
         }
 
-        public abstract string СanObtain(string initial, string target);
+        public abstract string CanObtain(string initial, string target);
     }
 }

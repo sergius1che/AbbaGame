@@ -2,6 +2,6 @@
 {
     public interface ISolution
     {
-        string СanObtain(string initial, string target);
+        string CanObtain(string initial, string target);
     }
 }
