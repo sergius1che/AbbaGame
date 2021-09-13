@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using BenchmarkDotNet.Running;
 
 namespace AbbaGame
 {
@@ -13,13 +14,11 @@ namespace AbbaGame
 
             var simplePassed = SimpleTestsExecutor.Instance.Execute(solutions);
 
-#if RELEASE
             if (simplePassed)
             {
                 var bench = new BenchmarkSwitcher(solutions);
                 bench.RunAllJoined();
             }
-#endif
 
             StrongTestsExecutor.Instance.Execute(solutions);
         }
