@@ -8,11 +8,12 @@ Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores
 
 
 ```
-|    Type | Method |        Mean |     Error |    StdDev |      Median |  Gen 0 | Allocated |
-|-------- |------- |------------:|----------:|----------:|------------:|-------:|----------:|
-| Chechin |    Run |  3,608.7 ns |  64.73 ns |  57.38 ns |  3,606.9 ns | 0.8545 |   3,576 B |
-|  Frolov |    Run |    636.6 ns |  12.52 ns |  25.01 ns |    631.6 ns | 0.4358 |   1,824 B |
-| Novikov |    Run |    450.5 ns |   8.97 ns |  11.97 ns |    446.8 ns | 0.4358 |   1,824 B |
-|   Panov |    Run | 25,687.5 ns | 418.53 ns | 391.49 ns | 25,698.1 ns | 7.5073 |  31,480 B |
-|  Ryabiy |    Run |    235.6 ns |  12.47 ns |  35.97 ns |    219.4 ns | 0.0229 |      96 B |
-|   Yurin |    Run |    690.4 ns |  13.50 ns |  25.02 ns |    685.3 ns | 0.1049 |     440 B |
+|        Type | Method |        Mean |     Error |    StdDev |      Median |  Gen 0 | Allocated |
+|------------ |------- |------------:|----------:|----------:|------------:|-------:|----------:|
+| Bezruchenko |    Run |  2,250.8 ns |  50.99 ns | 144.66 ns |  2,237.0 ns | 0.4883 |   2,056 B |
+|     Chechin |    Run |  4,486.6 ns |  89.69 ns | 206.08 ns |  4,441.1 ns | 0.8545 |   3,576 B |
+|      Frolov |    Run |    747.6 ns |  23.87 ns |  66.94 ns |    726.5 ns | 0.4358 |   1,824 B |
+|     Novikov |    Run |    499.0 ns |   9.89 ns |  10.99 ns |    497.7 ns | 0.4358 |   1,824 B |
+|       Panov |    Run | 28,283.3 ns | 551.84 ns | 541.98 ns | 28,270.5 ns | 7.5073 |  31,480 B |
+|      Ryabiy |    Run |    218.9 ns |   4.34 ns |   4.45 ns |    217.7 ns | 0.0229 |      96 B |
+|       Yurin |    Run |    713.3 ns |  11.14 ns |   9.30 ns |    715.3 ns | 0.1049 |     440 B |
