@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace AbbaGame
+namespace AbbaGame.Solutions
 {
     public class Borisov : Bench
     {
